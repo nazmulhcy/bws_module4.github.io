@@ -1,0 +1,77 @@
+.navbar {
+  background-color: rgba(187, 212, 236, 0.5);
+}
+
+.navbar-active {
+  display: inline-block;
+}
+
+.block {
+  float: right;
+  /* padding: 25px; */
+  padding-right: 80px;
+  padding-top: 55px;
+}
+.tap:link,
+.tap:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.tap:hover,
+.tap:active {
+  background-color: green;
+  color: white;
+}
+.about {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.contain {
+  position: absolute;
+  text-align: left;
+  top: 50px;
+  left: 150px;
+  font-size: 20px;
+}
+.course div {
+  display: inline-block;
+  /* margin-top: 200px; */
+}
+.elem {
+  padding: 40px;
+}
+/* .footer a{
+        text-align: left;
+      } */
+
+.footer {
+  color: rgb(41, 44, 44);
+  /* background-color: black; */
+  margin-top: 50px;
+  display: inline-block;
+  /* border: 2px solid black; */
+  text-align: center;
+  width: 20%;
+  height: 200px;
+  margin-left: 50px;
+}
+.footer b {
+  text-align: left;
+}
+.footer-items {
+  margin-top: 100px;
+  background-color: rgb(218, 227, 234);
+}
+.footer-items-contain {
+  font-size: 15px;
+  text-decoration: none;
+  color: rgb(62, 63, 63);
+}
